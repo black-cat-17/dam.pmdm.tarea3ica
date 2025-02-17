@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Estilo principal Pókemon -->
+    <style name="AppTheme" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <!-- Color principal Fondo -->
+        <item name="colorPrimary">@color/blue</item>
+        <!-- Color secundario -->
+        <item name="colorSecondary">@color/yellow</item>
+        <!-- Color de fondo -->
+        <item name="android:windowBackground">@color/white</item>
+        <!-- Color de texto principal -->
+        <item name="android:textColorPrimary">@color/blue</item>
+        <!-- Color de texto secundario -->
+        <item name="android:textColorSecondary">@color/yellow</item>
+        <!-- Barra de navegación -->
+        <item name="android:navigationBarColor">@color/blue</item>
+        <!-- Barra de estado -->
+        <item name="android:statusBarColor">@color/blue</item>
+        <!-- Personalización de botones -->
+        <item name="buttonStyle">@style/ButtonStyle</item>
+    </style>
+
+    <!-- Estilo para los botones -->
+    <style name="ButtonStyle">
+        <!-- Fondo rojo -->
+        <item name="android:backgroundTint">@color/red</item>
+        <!-- Texto negro -->
+        <item name="android:textColor">@color/black</item>
+    </style>
+
+    <!-- Estilo para un componente específico -->
+    <style name="CustomTabLayout" parent="Widget.MaterialComponents.TabLayout">
+        <!-- Fondo azul -->
+        <item name="android:backgroundTint">@color/blue</item>
+        <!-- Indicador de la pestaña amarillo -->
+        <item name="tabIndicatorColor">@color/yellow</item>
+        <!-- Texto de la pestaña seleccionado -->
+        <item name="tabSelectedTextColor">@color/yellow</item>
+        <!-- Texto de la pestaña no seleccionado -->
+        <item name="tabTextColor">@color/white</item>
+    </style>
+
+</resources>

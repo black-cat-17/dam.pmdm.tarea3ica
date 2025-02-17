@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context=".Ajustes">
+
+    <!-- Spinner para cambiar de idioma -->
+    <Spinner
+        android:id="@+id/ajustesIdioma"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="100dp"
+        android:layout_marginBottom="50dp"
+        android:padding="16dp" />
+
+    <!-- Switch para la eliminación de Pokémon -->
+    <androidx.appcompat.widget.SwitchCompat
+        android:id="@+id/ajustesEliminar"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginBottom="50dp"
+        android:padding="8dp"
+        android:textSize="16sp"
+        android:text="@string/Eliminar_Pokemon_capturados" />
+
+    <!-- Button para "Acerca de" -->
+    <Button
+        android:id="@+id/ajustesBtnAcercaDe"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginBottom="20dp"
+        android:padding="8dp"
+        android:text="@string/acerca_de"
+        android:textSize="16sp" />
+
+    <!-- Button para cerrar sesión -->
+    <Button
+        android:id="@+id/ajustesBtnCerrarSesion"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginBottom="20dp"
+        android:padding="8dp"
+        android:textSize="16sp"
+        android:text="@string/cerrar_sesion" />
+
+</LinearLayout>

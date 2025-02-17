@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">dam.pmdm.tarea03ica</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="imagen_pokemones">Imagen pokemones</string>
+    <string name="login">Acceder</string>
+    <string name="email">Introduce tu email</string>
+    <string name="password">Introduce tu password</string>
+    <string name="pokemon_capturados">Pokémon Capturados</string>
+    <string name="ajustes">Ajustes</string>
+    <string name="pokedex">Pokédex</string>
+    <string name="cerrar_sesion">Cerrar sesión</string>
+    <string name="acerca_de">Acerca de</string>
+    <string name="Eliminar_Pokemon_capturados">Eliminar Pokémon capturados</string>
+    <string name="cambiar_idioma">Cambiar idioma</string>
+    <!-- Tab Ajustes -->
+    <string name="opcion_1">Castellano</string>
+    <string name="opcion_2">Inglés</string>
+</resources>

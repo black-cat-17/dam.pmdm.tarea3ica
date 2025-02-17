@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "509197581362",
+    "project_id": "dampmdmtarea03ica",
+    "storage_bucket": "dampmdmtarea03ica.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:509197581362:android:caa75d27cda7a1b3bb102b",
+        "android_client_info": {
+          "package_name": "dam.example.dampmdmtarea03ica"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "509197581362-q4pghh6tucqlntkia1e55drjmon9ce2q.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBY-cX5kpAckI8zXZj3R1m7wAjlanU2Ksc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "509197581362-q4pghh6tucqlntkia1e55drjmon9ce2q.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

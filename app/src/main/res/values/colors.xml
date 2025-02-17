@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <!--Colores del universo de Pokémon-->
+    <color name="yellow">#FFCC00</color>
+    <color name="light_yellow">#FFFFDF</color>
+    <color name="red">#FF0000</color>
+    <color name="blue">#3B4CCA</color>
+    <color name="light_blue">#B1D9FF</color>
+    <color name="dark_blue">#1E2A61</color>
+</resources>
